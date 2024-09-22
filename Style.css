@@ -1,0 +1,83 @@
+/* estilo del formulario */
+form {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px; /* Espacio interior */
+    width: 300px; /* Ancho de mi formulario */
+    margin: 0 auto; /* Centra el formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border: 2px solid #000000; /* Borde*/
+}
+
+/* Estilo para las etiquetas */
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px; /* Espacio entre las atributos */
+   
+}
+
+form input[type="text"],
+form input[type="number"] {
+    font-size: 16px; 
+    background-color: #e7bc91; /* color de los text*/
+    width: 100%; /* Ancho*/
+    margin-bottom: 20px; /* Espacio entre las atributos */
+    padding: 10px; /* Espacio interior */
+    border: none; 
+    border-radius: 10px; /* Bordes */
+    box-sizing: border-box;
+   
+}
+
+/* Estilo del boton*/
+form button {
+    font-weight: bold;
+    background-color: #38b000; /* Fondo verde */
+    color: #ffffff; /* color de texto */
+    font-size: 16px; 
+    width: 100%; 
+    padding: 10px; /* Espacio interior */
+    border: none; /* Sin borde */
+    border-radius: 20px; /* Bordes muy redondeados */
+    cursor: pointer; /* Cursor de puntero */
+}
+
+/* Estilo de fondo principal*/
+body {
+    background: linear-gradient(to bottom, #d69f7e, #fff); /* Degradado de fondo */
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+
+/* Estilo de la tabla*/
+table {
+    width: 70%; 
+    border-collapse: collapse; /* Colapsar bordes */
+    margin: 20px auto; /* Espacio alrededor */
+    font-family: Arial, sans-serif; /* Fuente de la tabla */
+}
+
+/* Estilo para las cabeceras de la tabla */
+th {
+    background-color: #78ce50; /* Fondo color verde */
+    color: #000000;
+    padding: 10px; 
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Estilo para las celdas  */
+td {
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #dddddd; /* Borde inferior gris */
+}
+
+/* Estilo para alternar el fondo de las filas */
+tbody tr:nth-child(even) {
+    background-color: #ffffff; /* Fondo de filas */
+}
+
+/* Estilo para resaltar los bordes */
+table, th, td {
+    border: 1px solid black; /* Borde negro para la tabla y celdas */
+}
