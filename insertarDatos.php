@@ -16,6 +16,6 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 
-header("Location: ventas.php");
+header("Location: index.php");
 exit();
 ?>
